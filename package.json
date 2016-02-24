@@ -1,0 +1,20 @@
+{
+  "name": "imhapi",
+  "version": "1.0.0",
+  "description": "Tutorial para aprender a ser hapi en grupo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorgtp/imhapi.git"
+  },
+  "author": "Victor <victor@caseonit.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/victorgtp/imhapi/issues"
+  },
+  "homepage": "https://github.com/victorgtp/imhapi#readme",
+  "engines" : { "npm" : ">=3.6.0", "node" : ">=5.6.0" } 
+}

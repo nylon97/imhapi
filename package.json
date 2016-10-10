@@ -2,16 +2,17 @@
   "name": "imhapi",
   "version": "1.0.0",
   "description": "jjjj",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "start": "node ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nylon97/imhapi.git"
+    "url": "git+https://github.com/caseonit/imhapi.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nilo Iglesias",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nylon97/imhapi/issues"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/nylon97/imhapi#readme",
   "devDependencies": {
     "lab": "^11.1.0"
+  },
+  "dependencies": {
+    "hapi": "^15.1.1"
   }
 }

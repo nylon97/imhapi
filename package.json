@@ -18,7 +18,9 @@
     "lab": "^11.1.0"
   },
   "dependencies": {
-    "hapi": "^15.1.1"
+    "code": "^4.0.0",
+    "hapi": "^15.1.1",
+    "hapi-auth-basic": "^4.2.0"
   },
   "bin": {
     "lab": "./bin/lab"

@@ -12,6 +12,8 @@ const describe = lab.experiment;
 const expect = Code.expect;
 const it = lab.test;
 
+const internals = {};
+
 describe('/version', () => {
 
     it('retornamos la versión de package.json', (done) => {
@@ -22,8 +24,9 @@ describe('/version', () => {
 
             server.inject('/version', (res) => {
 
-                expect(res.statusCode).to.equal(200);
-                expect(res.result).to.deep.equal({ version : Package.version });
+                expect(res.statusCode).to.be.equal(200);
+                expect(res.result.version).to.be.equal( Package.version );
+
 
                 server.stop(done);
             });

@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "jjjj",
   "main": "lib/index.js",
-  "scripts": {
-    "start": "node ./lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caseonit/imhapi.git"
@@ -23,5 +19,12 @@
   },
   "dependencies": {
     "hapi": "^15.1.1"
+  },
+  "bin": {
+    "lab": "./bin/lab"
+  },
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "lab test --reporter console --threshold 100 --assert code --lint --coverage --verbose"
   }
 }
